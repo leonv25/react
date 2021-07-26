@@ -1,14 +1,19 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
+function Greet() {
+  return(
+  <h1>Hello World!</h1>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Greet />
   </React.StrictMode>,
   document.getElementById('root')
 );
