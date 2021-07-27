@@ -5,26 +5,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function Greet(props) {
-  return(
-    <h1>
-      Hello {props.phrase}! My name is {props.name}
-    </h1>
-  )
-}
-
-function GreetAll() {
-  return(
-    <div>
-      <Greet phrase="World" name="Ivan"/>
-      <Greet phrase="World" name="Anna"/>
-      <Greet phrase="World" name="Alex"/>
-    </div>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <div className="wrapper">
+        
+      </div>
+    )
+  }
 }
 
 ReactDOM.render(
-  <React.StrictMode><GreetAll /></React.StrictMode>,
+  <React.StrictMode><App /></React.StrictMode>,
   document.getElementById('root')
 );
 
