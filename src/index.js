@@ -4,12 +4,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Clock from './App';
 import reportWebVitals from './reportWebVitals';
+import Button from './Button';
 
 class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
         <Clock />
+        <Button />
         
       </div>
     )

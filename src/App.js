@@ -42,7 +42,7 @@ class Clock extends Component {
     return(
         <div>
           <ShowBanner time={this.state.date.getSeconds()} />
-          <h1>Текущее время {this.state.date.toLocaleDateString()}</h1>
+          <h1>Текущее время {this.state.date.toLocaleTimeString()}</h1>
         </div>
     )
   }
